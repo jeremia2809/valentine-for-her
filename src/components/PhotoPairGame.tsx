@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
-// 18 images
+// 18 images tet
 const images = [
   "/game-photos/1.jpg",
   "/game-photos/2.jpg",
