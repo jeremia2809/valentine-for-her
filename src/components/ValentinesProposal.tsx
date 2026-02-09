@@ -118,12 +118,13 @@ export default function ValentinesProposal() {
             {/* Image Grid Background */}
             <div className="absolute inset-0 grid grid-cols-6 opacity-10">
               {images.slice(0, 36).map((src, index) => (
-                <div key={index} className="relative h-full">
+                <div key={index} className="relative w-full h-40">
                   <Image
                     src={src}
                     alt={`Memory ${index + 1}`}
                     fill
                     className="object-cover"
+                    unoptimized
                   />
                 </div>
               ))}
